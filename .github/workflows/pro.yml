@@ -21,7 +21,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Install NogeJS
-      uses: actions/setup-node@v2-bet
+      uses: actions/setup-node@v2-beta
       with:
           node-version: 12
     - name: Install Surge
